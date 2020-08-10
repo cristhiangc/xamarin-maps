@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<android.support.v4.widget.Space
+        android:layout_width="1dp"
+        android:layout_height="20dp"/>
+	<Button
+		android:text="Ir a Google Maps"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/googleButton" />
+	<TextView
+		android:text="Medium Text"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/googleText" />
+
+	<android.support.v4.widget.Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+	<Button
+		android:text="Ir a Huawei Maps"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/huaweiButton" />
+	<TextView
+		android:text="Medium Text"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/huaweiText" />
+</LinearLayout>
